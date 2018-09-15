@@ -1,0 +1,166 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 350px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 100px;
+}
+
+header h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 23px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 23px;
+    color: #77a466;
+}
+
+/***** ABOUT *****/
+
+#about img#hero-image {
+  margin-left: 70px;
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+#about h2 {
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #77a466;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 25px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#menu {
+  border-top: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  padding-top: 15px;
+  padding-bottom: 36px;
+}
+
+#menu p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #77a466;
+
+}
+#menu h3 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#reviews {
+  border-top: 1px solid #dedbdc;
+  border-right: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+#reviews h3 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#reviews p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#contact {
+  border-top: 1px solid #dedbdc;
+  border-bottom: 1px solid #dedbdc;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-bottom: 54px
+}
+
+#contact h3 {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#contact p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  clear:both;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+footer p span {
+  font-family: 'Pacifico', cursive;
+  font-size: 24px;
+  text-transform: none;
+  color: #77a466;
+  font-weight: normal;
+}
